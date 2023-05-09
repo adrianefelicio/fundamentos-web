@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -15,21 +16,41 @@
             <a href="contato.html"> Contato</a>
         </li>
     </ul>
-    <h1>Sobre mim </h1>
-    <p>Aos onze anos de idade, tive meu primeiro computador e ali enxerguei uma porta para um mundo com muitas oportunidades. Foi através desse contato que comecei a estudar inglês, tive meu primeiro blog e a partir disso descobri não só um novo universo, mas também, novas habilidades em mim mesma. Depois de trabalhar como Analista de Suporte Técnico para a Microsoft consertando bugs do sistema operacional Windows, conheci a programação e decidi passar por uma transição de carreira. Hoje tenho conhecimento em Java, Spring, SQL, Git, Node.JS, JavaScript, CSS3, HTML5, Bootstrap, ReactJS, TypeScript e também Metodologia Ágil, SCRUM</p>
+    <h1 class="center">Sobre mim </h1>
+    <div class="container">
+       <div class="p-30" class="justify">
+        <p>Aos onze anos de idade, tive meu primeiro computador e ali enxerguei uma porta para um mundo com muitas oportunidades. Foi através desse contato que comecei a estudar inglês, tive meu primeiro blog e a partir disso descobri não só um novo universo, mas também, novas habilidades em mim mesma. Depois de trabalhar como Analista de Suporte Técnico para a Microsoft consertando bugs do sistema operacional Windows, conheci a programação e decidi passar por uma transição de carreira. Hoje tenho conhecimento em Java, Spring, SQL, Git, Node.JS, JavaScript, CSS3, HTML5, Bootstrap, ReactJS, TypeScript e também Metodologia Ágil, SCRUM</p>
 
-    <img src="https://avatars.githubusercontent.com/u/104842262?v=4" alt="Foto de Perfil">
+        <div class="redes">
+            <h3 >Conheça minhas Redes: </h3>
+            <a href="https://github.com/adrianefelicio" target="_blank">Meu GitHub</a>
+            <a href="https://www.linkedin.com/in/adriane-felicio-587370111/" target="_blank">Meu Linkedin</a>
+        </div>
+       </div>
+       <div class="br-50">
+        <img src="assets/midia/octocat-1681496316133.png" alt="Foto de Perfil">
+       </div>
 
-    <h2>Conheça minhas Redes: </h2>
-    <a href="https://github.com/adrianefelicio" target="_blank">Meu GitHub</a>
-    <a href="https://www.linkedin.com/in/adriane-felicio-587370111/" target="_blank">Meu Linkedin</a>
-    <h2>Pitch: </h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3C_KO2Fmqes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+
+    <h2 class="center">Pitch: </h2>
+    <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3C_KO2Fmqes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <br>
     <br>
-    <audio controls autoplay>
-        <source src="midia/ES_Too Unusual - Yomoti.mp3" type="audio/mp3">
-    </audio>
+    <div class="container">
+        <audio controls>
+            <source src="assets/midia/ES_Too Unusual - Yomoti.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <footer>
+        <hr>
+       <p class="center">
+        Todos os direitos reservados: Adriane Felicio &copy;
+       </p>
+    </footer>
 
 </body>
 </html>
