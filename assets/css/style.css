@@ -1,5 +1,9 @@
 /* Estilos da página index.html */
 
+body{
+    background-color: #EFE3A9;
+}
+
 img {
     width: 400px;
     }
@@ -25,7 +29,7 @@ img {
 
 #menu li a{
     text-decoration: none;
-    color: black;
+    color: #414288;
     font-size: 20px;
 }
 
@@ -35,6 +39,8 @@ img {
 
 .p-30{
     padding: 30px;
+    width: 650px;
+    font-size: 20px;
 }
 
 .br-50{
